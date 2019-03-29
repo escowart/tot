@@ -1,0 +1,10 @@
+---
+layout: post
+title: Class Prep 3/29/2019
+author: Edwin Cowart
+categories:
+    - fieldbooks
+comments: false
+---
+
+*Ghosts In The Reels* (Is that a reference to *Ghost In The Shell*?) explores who large datacenter actually prefer to utilize tape a seemingly obsolete form of data store for long term backups. The piece mentions how digit backups can be a fundamentally faulty process because those systems also experience software or firmware updates which always have the risk of corrupting data. The interesting part is that tape is also a flawed form of data storage because evolution of the mechanical readers & writers will make older versions of the medium obsolete. I don't think these is a simple solution to this dilemma, both physical and digital mediums have their vulnerabilities to decay and obsolescence. Having backups is important, especially when the information is pivotal to the flow of capital into a company or for public or personal records of events. Data permeance is very much a myth which is explored further in the *The Librarians Saving The Internet* which explores how a change in Administration can impact what the government presents and displays as scientific research (Especially when there is a party which actively rejects science in a multitude of ways). *Data Reawakening* explores alternative mediums for long term storage of data. While using atoms and microbes to store information is an interesting concept and would represent incredible breakthroughs. I believe these mediums have their own limitations. They both have to maintain in a controlled environment for a century if the hope is for the data to last until the 22th century. Perverting human advance is certainly important, I just think that in order for data storage to be long lasting it shouldn't consume resources, nor should it consist of materials which are costly enough for it to be cannibalized for its parts and raw materials. Ownership and priorities changes as time progresses, I don't think it is viable to assume that their will be a continuous effort to save information.
