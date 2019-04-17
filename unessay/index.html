@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Comments have a language of their own</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="general">
+        <div class="headline">
+            <h1>Comments have a language of their own </h1>
+            <!-- The language of comments is mostly technical if you are lucky enough to read commented code -->
+            <h2>Edwin Cowart</h2>
+        </div>
+        <!-- Years of mathematics has taught me well, start with your definitions & what you already know.
+        -->
+        <p>
+            > A comment in programming is a means of annotating software such that code is more human-readable.
+            For the most parts the machines themselves ignore comments during compilation and interpretation.
+            Generally there is a string of characters which allows each programmer to comment out a sign line of text and a pair of tags which indicated which enable the programmer to comment out a block of text.
+            The syntax of the line and block comment depends on the language, but I will use C as the example.
+        </p>
+        <script>
+            // line comment
+            /** block comment */
+            console.log("Hello Word")
+        </script>
+        <div class="code">
+            <a style="color:green">
+            // line comment
+            /** block comment */</a>
+            <a style="color:lightseagreen">console</a>.<a style="color:moccasin">log</a>(<a style="color:sandybrown">"Hello Word"</a>)<a style="color:green"> // <---- this is code</a>
+        </div>
+        <p>
+            > The amount of commenting that comes with code varies significantly depending on the education, workplace, personal style and mood of the programmer.
+            Comments might facilitate a better understanding of the code or they can act as an excuse to right unparsable code. Comments can also be a means of having fun with the next developer who has the misfortune of fixing or adapting your code.
+            This means that the language of comments is largely technical and highly contextual, but I’d like to explore some dialects of this language which are not so heavy on the technical side.
+            It is important to keep in mind that comments are written by programmers with the intention that either the original or future programmer will find these comments useful or entertaining. 
+        </p>
+        <!-- I can't imagine that anyone other than a computer science professor would wants to me to explore the the language of purely technical comments.  -->
+        <div class="comment">
+            // 
+            // Dear maintainer:
+            // 
+            // Once you are done trying to 'optimize' this routine,
+            // and have realized what a terrible mistake that was,
+            // please increment the following counter as a warning
+            // to the next guy:
+            // 
+            // total_hours_wasted_here = 42   <a class="citation">[3]</a>
+
+            // Abandon all hope, ye who enter here.   <a class="citation">[3]</a>
+
+            /**
+            * For the brave souls who get this far: You are the chosen ones,
+            * the valiant knights of programming who toil away, without rest,
+            * fixing our most awful code. To you, true saviors, kings of men,
+            * I say this: never gonna give you up, never gonna let you down,
+            * never gonna run around and desert you. Never gonna make you cry,
+            * never gonna say goodbye. Never gonna tell a lie and hurt you.
+            */   <a class="citation">[3]</a>
+            
+            //Dear future me. Please forgive me. 
+            //I can't even begin to express how sorry I am.   <a class="citation">[3]</a>
+
+            <img src="./images/fire.gif" alt="fire" class="image">
+        </div>
+        <p>
+            > In many ways comments are quite similar to the notes annotated in the margins of medieval manuscripts.
+            An complaint like “Now I’ve written the whole thing: for Christ’s sake give me a drink”<a class="citation">[5]</a> could apply to either a scribe, a typist, or a programmer. 
+            Although one medium is physical and the other digital, there is a shared human experience.
+            Like the scribe or typist, the programmer has a limited capacity for mental exertion and has to break and may go get some drinks with their co-workers.
+            Human hands still have to produce code and spend long hours reading and writing.
+        </p>
+        <div class="comment">
+            // I dedicate all this code, all my work, to my wife, Darlene, who will 
+            // have to support me and our three children and the dog once it gets 
+            // released into the public.   <a class="citation">[3]</a>
+            
+            // When I wrote this, only God and I understood what I was doing
+            // Now, God only knows   <a class="citation">[3]</a>
+            
+            // sometimes I believe compiler ignores all my comments   <a class="citation">[2]</a>
+            
+            // I am not sure if we need this, but too scared to delete.   <a class="citation">[4]</a>
+        
+            <img src="./images/delete.gif" alt="delete" class="image">
+        </div>
+        <p>
+            > I like to think that with such a mathematical medium, the programmer seeks a way of humanizing the code.
+            That this scarcity of human interaction and sense of seriousness that comes with writing code creates a need on the part of the programmer to be silly or playful.
+            It’s a way of expressing oneself in direct contradiction to the core message of the medium which will be interpreted or compiled for a soulless machine.
+            Certainly stress and frustration play a significant role in why these annotations appear in code. Programming can be an unforgiving endeavor, a tiny mistake can break everything, especially when the codebase is ugly.
+        </p>
+        <div class="comment">
+            // I have to find a better job <a class="citation">[4]</a>
+            
+            // Magic. Do not touch.   <a class="citation">[1]</a>
+            
+            //Happy debugging suckers   <a class="citation">[1]</a>
+            
+            <img src="./images/bugs.gif" alt="bugs" class="image">
+        </div>
+        <p>
+            > <i>The Beauty of Code</i> can actually give a great insight into why these annotations exist, ““beautiful code” is not an abstract virtue that exists independent of its programmers’ efforts.
+            Rather, beautiful code is really meant to help the programmer be happy and productive.
+            This is the metric I use to evaluate the beauty of a program.”[6] Often code does not conform to this beauty standard because managers and programmers come and go from a place of employment and each of them has their own unique style and understanding of the codebase, the language, and external libraries which results in really ugly code. Programmers then have to either fix or add a feature to interwoven or ugly code which results in a ton of frustration and potential will introduce more bugs.
+            This is certainly another reason why programmers might complain or joke after a long day of debugging.
+        </p>
+        <div class="comment">
+            //This code sucks, you know it and I know it.   <a class="citation">[1]</a>
+            
+            //Move on and call me an idiot later.   <a class="citation">[1]</a>
+
+            // no comments for you   <a class="citation">[1]</a>
+
+            // If this code works, it was written by Paul DiLascia. If not, I don't know
+            // who wrote it   <a class="citation">[1]</a>
+
+            <img src="./images/blame.gif" alt="blame" class="image">
+        </div>
+        <p>
+            > These comments display how the culture & humor of the programmer is built on the ideas prevalent through meme and internet culture, which only exist through the existence of programs.
+            Our as the <i>The Medium is the Message</i> generalizes this idea “This is merely to say that the personal and social consequences of any medium—that is, of any extension of ourselves—result from the new scale that is introduced into our affairs by each extension of ourselves, or by any new technology. “ <a class="citation">[7]</a>
+            I find this circularity between the medium and the message of comment to fascinating.
+            There very essence of this dialect of comments is derived from the culture built around the mediums which the message is written in.
+        </p>
+        <div class="citation">
+            <p>[1] “40 Most Funny Code Comments Ever.” Fuzzzy Blog, fuzzzyblog.blogspot.com/2014/09/40-most-funny-code-comments.html.</p>
+            <p>[2] “What Is the Best Comment in Source Code You Have Ever Encountered?” Stackoverflow, stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered.</p>
+            <p>[3] Ayinla, Raji. “Codesmith Dev.” 40 Examples of Funny Code and Comments, codesmithdev.com/40-examples-of-funny-code-and-comments/.</p>
+            <p>[4] “Top 45 Best Comments In Source Code I Ever Encountered.” Loud Programmer, loudprogrammer.net/best-comments-in-source-code-i-ever-encountered/.</p>
+            <p>[5] Popova, Maria. “Oh, My Hand: Complaints Medieval Monks Scribbled in the Margins of Illuminated Manuscripts.” Brianpickings, www.brainpickings.org/2012/03/21/monk-complaints-manuscripts/.</p>
+            <p>[6] Chandra, Vikram. “The Beauty of Code.” The Paris Review, www.theparisreview.org/blog/2014/09/05/the-beauty-of-code/.</p>
+            <p>[7] Marshall McLuhan, “The Medium is the Message” (1964)</p>
+            <p>fire.gif - https://giphy.com/gifs/13HgwGsXF0aiGY</p>
+            <p>plugs.gif - https://giphy.com/gifs/modern-software-development-kwEmwFUWO5Ety</p>
+            <p>bugs.gif - https://giphy.com/gifs/EvsgzxSJjRQWY</p>
+            <p>delete.gif - https://giphy.com/gifs/funny-computers-ZmrLi7eC703u</p>
+            <p>blame.git - https://giphy.com/gifs/experience-programming-QqtnJ96Lfx5wA</p>
+        </div>
+    </body>
+</html>
